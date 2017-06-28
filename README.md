@@ -24,7 +24,7 @@ This project let's you scan mac address of all wi-fi devices present around you.
 with respective MAC address.uncomment the line given below in given code to see mac addresses also.
 //Serial.println(response.substring(j+1,j+18));
 
-2) change  
+2) change data stored in 
 
 
 ```
