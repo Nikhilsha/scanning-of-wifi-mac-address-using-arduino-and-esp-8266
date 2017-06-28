@@ -20,8 +20,13 @@ This project let's you scan mac address of all wi-fi devices present around you.
 ## Running the tests
 
 ```
-Burn the given code in arduino ide and open serial monitor to see all the names associated (prestored) 
-with respective MAC address.
+1) Burn the given code in arduino ide and open serial monitor to see all the names associated (prestored) 
+with respective MAC address.uncomment the line given below in given code to see mac addresses also.
+//Serial.println(response.substring(j+1,j+18));
+
+2) change  
+
+
 ```
 ### And coding style tests
 
