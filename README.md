@@ -18,19 +18,21 @@ This project let's you scan mac address of all wi-fi devices present around you.
 ```
 
 
-###Setup
+### Setup
 
 ```
-1) open serial monitor and set baudrate according to the baud rate of esp module. by default it is
+1) make connection according to this https://arduino.stackexchange.com/questions/18903/connecting-esp8266-with-arduino-uno-wifi-shield-not-present.
+
+2) open serial monitor and set baudrate according to the baud rate of esp module. by default it is
 115200. 
 
-2) Select NL/CR.
+3) Select NL/CR.
 
-3) Burn code in arduino to scan all wi-fi names.
+4) Burn code in arduino to scan all wi-fi names.
 
-4) To check MAC address of wi-fi devices uncommrnt line 32 in given code.
+5) To check MAC address of wi-fi devices uncommrnt line 32 in given code.
 
-5) To get names according to MAC address you have to prestore data in comparision() function.
+6) To get names according to MAC address you have to prestore data in comparision() function.
 
 ```
 
