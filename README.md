@@ -13,7 +13,7 @@ This project let's you scan mac address of all wi-fi devices present around you.
 ### Installing
 
 ```
-1) open serial monitor in arduino ide and set baud rate 9600.
+1) open serial monitor in arduino ide and set baud rate 115200.
 2) set mode of wifi module by using CWMODE=3
 ```
 
@@ -28,7 +28,10 @@ This project let's you scan mac address of all wi-fi devices present around you.
 
 3) Burn code in arduino to scan all wi-fi names.
 
-4) To check MAC address of wi-fi devices uncommrnt line in code 
+4) To check MAC address of wi-fi devices uncommrnt line 32 in given code.
+
+5) To get names according to MAC address you have to prestore data in comparision() function.
+
 ```
 
 
